@@ -1,3 +1,57 @@
 body {
-    background: blueviolet
+    background: whitesmoke
+}
+header {
+    padding: 25px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(170, 139, 255);
+    color:whitesmoke;
+}
+header h1 {
+    display:inline-block;
+    font-size :30px;
+    color:rgb(0, 0, 0);
+    font-style:bold
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    display: inline-flex
+}
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float:right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:black;
+}
+
+nav ul li {
+    display:inline-block;
+    margin-left: 25px;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+    font-size: 35px;
+    font-style: bold;
+
+}
+.pandapics {
+    height: 300px;
+    width:100%;
+    margin-left: 160px;
+}
+footer {
+    padding: 30px;
+    clear:both;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 2px;
+    
 }
